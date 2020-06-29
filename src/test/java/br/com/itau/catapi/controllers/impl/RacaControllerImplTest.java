@@ -1,7 +1,6 @@
 package br.com.itau.catapi.controllers.impl;
 
 import br.com.itau.catapi.beans.Raca;
-import br.com.itau.catapi.controllers.impl.RacaControllerImpl;
 import br.com.itau.catapi.services.RacaService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
