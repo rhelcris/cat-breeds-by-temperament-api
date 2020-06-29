@@ -10,6 +10,6 @@ import java.util.Optional;
 @Repository
 public interface RacaRepository extends JpaRepository<Raca, String> {
 
-    Optional<List<Raca>> findByTemperamentoContains(String temperamento);
+    Optional<List<Raca>> findByTemperamentoContainsIgnoreCase(String temperamento);
 
 }
